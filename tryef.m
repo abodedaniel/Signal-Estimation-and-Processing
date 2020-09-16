@@ -1,0 +1,1 @@
+plot(abs(fft(A)))

@@ -1,0 +1,7 @@
+close all
+subplot(2,1,1)
+plot(a)
+title('plot of the data of "a"')
+ylabel('Amplitude')
+xlabel('time')
+A = a(1:3)
