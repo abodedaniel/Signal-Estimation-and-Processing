@@ -1,0 +1,11 @@
+E_a=(sa*sa')/length(sa);
+E_e=(se*se')/length(se);
+E_i=(si*si')/length(si);
+E_o=(so*so')/length(so);
+E_u=(su*su')/length(su);
+E=(s*s')/length(s);
+[k,ca]=c_p(sa,s,1024);ca=max(ca)/E_a/E_s;
+[k,ce]=c_p(se,s,1024);ce=max(ce)/E_e/E_s;
+[k,ci]=c_p(si,s,1024);ci=max(ci)/E_i/E_s;
+[k,co]=c_p(so,s,1024);co=max(co)/E_o/E_s;
+[k,cu]=c_p(su,s,1024);cu=max(cu)/E_u/E_s;
